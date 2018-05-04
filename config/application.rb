@@ -30,5 +30,8 @@ module BoxWatcher
     config.logger = Logger.new(STDOUT)
     # config.logger = Log4r::Logger.new("Application Log")
     # config.public_file_server.enabled = true
+
+    # autoload the lib folder
+    config.eager_load_paths << Rails.root.join('lib')
   end
 end
