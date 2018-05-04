@@ -45,3 +45,4 @@ bower.json
 
 box_*_key.pem
 .box_*_token
+shared/*
